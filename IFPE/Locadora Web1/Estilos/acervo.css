@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'logo';
+    src: url(../Fontes/carolingia.ttf);
+    font-weight: lighter;
+    font-style: normal;
+}
+
+body{
+    background-image: linear-gradient(to left,#27463f,#e28989d5,#27463f);
+}
+
+#logo{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-family: 'logo';
+    font-size: 1.5em;
+}
+
+.seta_voltar{
+    text-align: center;
+}
+
+div{
+    margin: auto;
+    max-width: 1800px;
+    min-width: 400px;
+    text-align: center;
+}
+
+div p{
+    font-size: 1.5em;
+}
+
+img{
+    border-radius: 20px;
+    padding: 5px;
+}
+
+
